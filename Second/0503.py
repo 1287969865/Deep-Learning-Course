@@ -15,5 +15,5 @@ Y = np.mat(y)
 W = ((X.T*X)**-1)*X.T*Y
 s = W.shape
 # print(2**-1)
-print("w的shape属性结果是",s)
-print("X是",x,"Y是",y,"W是",W)
+print("w的shape属性结果是：",s)
+print("X是：\n",x,"\nY是：\n",y,"\nW是：\n",W)
